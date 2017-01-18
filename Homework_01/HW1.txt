@@ -1,0 +1,43 @@
+1.	What are benefits to use Scrum?
+Benefits of Scrum model as Software development process are
+
+Delighted Customer:
+Implementation of frequent change in Customer requirement is possible using this model. So it leads to higher customer satisfaction.  
+Collaborating with customers and keeping them involved and engaged throughout projects.  
+
+Improved Return on investment and Reduced Cost:
+Early feedback from customers/ stakeholder enables correction early which is less costly and time-consuming than later in the process.
+Reduced costs of failure. If a scrum project is going to fail, it fails earlier and faster than waterfall projects.
+
+Fast Result:
+Fast moving, cutting edge developments can be quickly coded and tested using this scrum, as a mistake can be easily rectified.
+
+Confidence in succeed in a complex world:
+Embracing change allows the project team to react to outside factors like market demand and it leads to quickly adapting to current needs of customer.
+
+More Joy:
+Working with happy people who enjoy their jobs can be satisfying and rewarding. Self-management puts decisions that would normally be made by a manager or the organization into scrum team members’ hands. As being part of a self-managing and self-organizing team allows people to be creative, innovative, and acknowledged for their expertise and can enjoy their work.
+
+
+2.	According to Cynefin framework, what are five problem domains? Which problem domain(s) is Scrum particularly well suited for?  
+
+The Cynefin Framework is made up of 5 domains, they are as follows:
+Simple:
+The relationship between cause and effect is obvious & known to all. The approach is to Sense, Categorize, and Respond. An example of this is an assembly line where standard operating procedures or best practice are adhered to.
+
+Complicated:
+The relationship between cause and effect requires analysis and/or the application of expert knowledge. The approach is to Sense, Analyze and Respond. An example of this is systems thinking where good practice is adhered to.
+
+Complex: 
+The relationship between cause and effect can only be fully perceived in retrospect, but not in advance. The approach is to Probe, Sense and Respond. An example of this is adaptive systems, where emergent practices are used.
+
+Chaotic:
+There is no relationship between cause and effect at systems level. The approach is to Act, Sense and Respond. An example of this is Crisis Management, where rapid response / stabilization is employed.
+
+Disorder:
+This is the middle domain, which is the state of not knowing what type of causality exists, in which state people will have a tendency to revert to their own comfort zone (domain) in making a decision.
+
+Scrum aims to solve complex problems by using the Probe, Sense, Respond method. It assumes that the world as we know it is subject to change; therefore we can only explain the relationship between cause and effect in retrospect. It allows you to identify patterns in software development, amplify what is working & dampen what isn’t working.
+
+The reality is that software projects have a mix of simple, complicated and complex problems and that whilst Scrum is emergent, carries a low cost of change and very capable of handling complex issues, this does come at the cost of staff utilization.
+
