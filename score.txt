@@ -4,7 +4,8 @@ Homework Scores for ACS567 (Software Project Management) (Spring 2017)
 	- Directory name should be "hw1", instead of "Homework_01": -5
 
 
-- HW 2:
+- HW 2: 90 out of 100
+	- Problem 2 ARIN part: -10
 
 - HW 3:
 
