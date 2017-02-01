@@ -1,0 +1,48 @@
+<!-- Review Form Program Ashwini Kulkarni -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+ 
+ <fieldset>
+  <legend>Your Details:</legend>
+  Name: <input type="text" size="60"><br>
+  Email: <input type="text" size="60"><br>
+ </fieldset>
+
+ <fieldset>
+	<legend>Your Review:</legend>
+	<br> <!--Adding space between line-->
+ 
+	<div>How did you hear about us? <select name="source">
+	<option value="Google">Google</option>
+	<option value="Friend">Friend</option>
+	<option value="Advert">Advert</option>
+	<option value="Other">Other</option>
+	</select></div> 
+
+	<br>
+
+	<div>Would you visit again? <br>
+    <input type="radio" name="visitInterest" value="yes" checked> Yes
+    <input type="radio" name="visitInterest" value="no"> No
+	<input type="radio" name="visitInterest" value="maybe"> Maybe<br></div>
+	
+	<br>
+	
+	<div>Comments:<br><textarea name='comment' id='comment' rows="8" cols="60"></textarea><br /></div>
+  
+	<br>
+	
+	<div><input type="checkbox" name="agree">Sign me up for email updates</div>
+	
+	<br>
+	
+	<div><input type="Submit" value="Submit Review" name="Submit"></div>
+ </fieldset>
+ 
+</form>
+
+</body>
+</html>
