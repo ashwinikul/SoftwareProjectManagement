@@ -1,0 +1,112 @@
+* {
+				
+				}
+			body {
+				width: 90%;
+				margin: 1% auto;
+				text-align: left;}
+                
+           
+		.pagebox {
+			background-color: lightgrey; 
+			width: 100%; 
+			padding: 20px; 
+			border: 2px solid navy;
+            margin:1%;
+			margin-left: auto; 
+			margin-right:auto; 
+			border-radius: 16px;
+			height=100%;
+		}    
+			#content {
+				overflow: auto;}
+			
+			.column1, .column2, .column3 {
+				width: 20%;
+				float: left;
+				margin: 1%;
+                background-color: lightgrey;
+                color:black;}
+			.column3 {
+				margin-right: 0%;}
+                
+             
+               
+			li {
+				display: inline;
+				padding: 0.5em;}
+
+			 .article {
+				
+				
+				background-color: lightgrey;
+                text-color:black;
+				
+				}
+				
+				.column1 {
+				Position:fixed;}
+				.column3 {
+				 margin-right: 0%; Position:relative;}
+                .column2 {
+				margin-left:20%; background-color: #9370DB;
+                 width: 50%; Position:relative;} 
+                
+				 
+			 
+                
+     .profile_img
+      {
+          position: absolute; 	
+          right: 5%;
+          margin: 25px;
+          width: 200px;
+          padding: 25px;
+
+
+      }
+      
+   #details
+{
+color: white;
+background-image: url("http://cdn.wallpapersafari.com/96/12/2C4yoJ.jpg");
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat;  <!--repeat-x;-->
+margin-right: 0px;
+text-indent: 50px;
+text-shadow: 3px 2px brown;
+text-align:left;
+padding: 15px;
+
+}  
+embed {
+width: 80%;
+margin-left: 10%;
+height:300px;
+allowfullscreen="true";
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+    background-color: grey;
+}
+
+a:link { 
+    color: black;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:visited {
+color: red;
+}
+
+a:hover {
+   text-decoration: underline; // changed from text:decoration:none;
+}
+
+
+
