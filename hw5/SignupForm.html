@@ -1,0 +1,52 @@
+<!-- Review Form Program Ashwini Kulkarni -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Signup Form</title>
+</head>
+<script type="text/javascript" src="myscripts.js"></script>
+<body>
+
+<form action="" id="signup" method="post" onsubmit="return validate();">
+ 
+ <fieldset>
+  <legend>Your Details:</legend>
+  Name: <input name="name" type="text" size="60"><br>
+  Email: <input name="email" type="text" size="60"><br>
+ </fieldset>
+
+ <fieldset>
+	<legend>Your Review:</legend>
+	<br> <!--Adding space between line-->
+ 
+	<div>How did you hear about us? <select name="source">
+	<option value="Google">Google</option>
+	<option value="Friend">Friend</option>
+	<option value="Advert">Advert</option>
+	<option value="Other">Other</option>
+	</select></div> 
+
+	<br>
+
+	<div>Would you visit again? <br>
+    <input type="radio" name="visitInterest" value="yes" checked> Yes
+    <input type="radio" name="visitInterest" value="no"> No
+	<input type="radio" name="visitInterest" value="maybe"> Maybe<br></div>
+	
+	<br>
+	
+	<div>Comments:<br><textarea name='comment' id='comment' rows="8" cols="60"></textarea><br /></div>
+  
+	<br>
+	
+	<div><input type="checkbox" name="agree" onchange="submitVisibility(this)">Sign me up for email updates</div>
+	
+	<br>
+	
+	<div><input type="Submit" value="Submit Review"  id="Submit"  name="Submit" disabled="disabled"></div>
+ </fieldset>
+ 
+</form>
+
+</body>
+</html>

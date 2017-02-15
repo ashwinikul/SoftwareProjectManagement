@@ -1,0 +1,73 @@
+<!--
+
+Simple Calculator Application
+-->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic Calculator</title>
+        
+     <style type="text/css">
+		.pagebox {
+			background-color: lightgrey; 
+			width: 70%; 
+			padding: 20px; 
+			border: 2px solid navy;
+            margin:1%;
+			margin-left: auto; 
+			margin-right:auto; 
+			border-radius: 16px;
+			height=100%;
+		}    
+	</style>   
+	</head>
+	<script>
+		function makeAdder(amount){
+			return function(number) {
+				return number + amount;
+			};
+		}
+		
+		function calculate() {
+			//-with (document.forms.form) {
+			//	var ch = document.getElementById("op").value;
+                
+                switch(document.pressed) {
+    case "Add":
+        result.value = Number(num1.value) + Number(num2.value) ;
+        break;
+    case "Sub":
+        result.value = Number(num1.value) - Number(num2.value) ;
+        break;
+    case "Mul":
+        result.value = Number(num1.value) * Number(num2.value) ;
+        break;
+    case "Div":
+         
+        result.value = Number(num1.value) / Number(num2.value) ;
+        break;
+    default:
+        result.value = "Incorrect Operation";
+}
+			//}
+		}
+		
+	</script>
+	<body>
+     <div class="pagebox">
+		<form id="form" onsubmit="calculate(); return false;">
+			Number 1: <input type="text" id="num1"><br/><br/>
+			Number 2: <input type="text" id="num2"><br/><br/>
+			<input type="submit" id="op" onclick="document.pressed=this.value" value = "Add">&nbsp;&nbsp;&nbsp;
+            <input type="submit" id="op" onclick="document.pressed=this.value" value = "Sub">&nbsp;&nbsp;&nbsp;
+            <input type="submit" id="op" onclick="document.pressed=this.value" value = "Mul">&nbsp;&nbsp;&nbsp;
+            <input type="submit" id="op" onclick="document.pressed=this.value" value = "Div"><br/><br/>
+			Result: <input type="text" id="result"><br/><br/>
+		</form>	
+        </div>
+	</body>
+
+
+   
+</html>
