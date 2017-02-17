@@ -12,7 +12,8 @@ Homework Scores for ACS567 (Software Project Management) (Spring 2017)
 - HW 4: 95 out of 100
 	- For the table, when the mouse is over a row, it shows a different color: -5
 
-- HW 5:
+- HW 5: 95 out of 100
+	- Javascript file should be put under the "js" directory: -5
 
 - HW 6:
 
