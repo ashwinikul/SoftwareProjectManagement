@@ -15,7 +15,8 @@ Homework Scores for ACS567 (Software Project Management) (Spring 2017)
 - HW 5: 95 out of 100
 	- Javascript file should be put under the "js" directory: -5
 
-- HW 6:
+- HW 6: 80 out of 100
+	- Problem 3, the purpose is to implement the functionality provided by hexdec, not to call this function : -20
 
 - HW 7:
 
