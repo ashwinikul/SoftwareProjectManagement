@@ -24,3 +24,7 @@ Homework Scores for ACS567 (Software Project Management) (Spring 2017)
 - HW 8: 165 out of 100
 	- Problem 3 and problem 4 for reading the content of a table from DB and show it in a page - DRY - put the common code into a function (plesae refer to the sample solution): -5
 
+- Extra Credit: 60
+	- Problem 1: +15
+	- Problem 2: +15
+	- Problem 3: +30 
